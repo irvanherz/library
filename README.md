@@ -1,12 +1,13 @@
 # README
 
-library adalah sebuah Application Programming Interfaces (APIs) backend berbasis MVC yang didesain secara terstruktur. Aplikasi ini dikembangkan untuk mejembatani integrasi antara aplikasi perpustakaan dengan databasenya.
+Library API adalah sebuah Application Programming Interfaces (APIs) backend berbasis MVC yang didesain secara terstruktur. Aplikasi ini dikembangkan untuk mejembatani integrasi antara aplikasi perpustakaan dengan databasenya.
 
 
 ## Cara Pemakaian
 Sebelum memulai menggunakan library API, clone source code ke folder, lalu dilanjutkan dengan menginstall dependensi package yang diperlukan.
 ```sh
 $ git clone https://github.com/irvanherz/library.git
+$ cd library
 $ yarn install
 ```
 Library API server menggunakan MySQL untuk dapat berjalan. Sehingga pastikan sebelum menjalankan, MySQL sudah terinstal dan berjalan service-nya. 
